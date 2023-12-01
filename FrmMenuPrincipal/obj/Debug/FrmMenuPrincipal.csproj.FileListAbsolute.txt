@@ -1,0 +1,11 @@
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\bin\Debug\FrmMenuPrincipal.exe.config
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\bin\Debug\FrmMenuPrincipal.exe
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\bin\Debug\FrmMenuPrincipal.pdb
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.csproj.AssemblyReference.cache
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.Form1.resources
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.Properties.Resources.resources
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.csproj.GenerateResource.cache
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.exe
+C:\Users\Hello\Desktop\PrClinica\FrmMenuPrincipal\obj\Debug\FrmMenuPrincipal.pdb
