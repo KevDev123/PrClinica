@@ -35,21 +35,23 @@
             this.btnProgramCon = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.pnlPaciente = new System.Windows.Forms.Panel();
+            this.btnExpedientePac = new System.Windows.Forms.Button();
             this.btnRegistroPac = new System.Windows.Forms.Button();
             this.btnPaciente = new System.Windows.Forms.Button();
             this.pnlMedico = new System.Windows.Forms.Panel();
             this.btnRegistroMed = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picLogoPeq = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnExpedientePac = new System.Windows.Forms.Button();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.pnlConsulta.SuspendLayout();
             this.pnlPaciente.SuspendLayout();
             this.pnlMedico.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoPeq)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -146,6 +148,24 @@
             this.pnlPaciente.Size = new System.Drawing.Size(196, 84);
             this.pnlPaciente.TabIndex = 7;
             // 
+            // btnExpedientePac
+            // 
+            this.btnExpedientePac.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnExpedientePac.FlatAppearance.BorderSize = 0;
+            this.btnExpedientePac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExpedientePac.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExpedientePac.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnExpedientePac.Image = ((System.Drawing.Image)(resources.GetObject("btnExpedientePac.Image")));
+            this.btnExpedientePac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExpedientePac.Location = new System.Drawing.Point(0, 42);
+            this.btnExpedientePac.Name = "btnExpedientePac";
+            this.btnExpedientePac.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnExpedientePac.Size = new System.Drawing.Size(196, 42);
+            this.btnExpedientePac.TabIndex = 6;
+            this.btnExpedientePac.Text = "Expediente \r\nPaciente\r\n\r\n\r\n";
+            this.btnExpedientePac.UseVisualStyleBackColor = true;
+            this.btnExpedientePac.Click += new System.EventHandler(this.btnExpedientePac_Click);
+            // 
             // btnRegistroPac
             // 
             this.btnRegistroPac.Dock = System.Windows.Forms.DockStyle.Top;
@@ -232,23 +252,22 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.picLogoPeq);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(196, 173);
             this.panel2.TabIndex = 0;
             // 
-            // pictureBox1
+            // picLogoPeq
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(23, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 89);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picLogoPeq.Image = ((System.Drawing.Image)(resources.GetObject("picLogoPeq.Image")));
+            this.picLogoPeq.Location = new System.Drawing.Point(35, 22);
+            this.picLogoPeq.Name = "picLogoPeq";
+            this.picLogoPeq.Size = new System.Drawing.Size(117, 119);
+            this.picLogoPeq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogoPeq.TabIndex = 0;
+            this.picLogoPeq.TabStop = false;
             // 
             // btnSalir
             // 
@@ -264,23 +283,17 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnExpedientePac
+            // picLogo
             // 
-            this.btnExpedientePac.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnExpedientePac.FlatAppearance.BorderSize = 0;
-            this.btnExpedientePac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExpedientePac.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExpedientePac.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnExpedientePac.Image = ((System.Drawing.Image)(resources.GetObject("btnExpedientePac.Image")));
-            this.btnExpedientePac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExpedientePac.Location = new System.Drawing.Point(0, 42);
-            this.btnExpedientePac.Name = "btnExpedientePac";
-            this.btnExpedientePac.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btnExpedientePac.Size = new System.Drawing.Size(196, 42);
-            this.btnExpedientePac.TabIndex = 6;
-            this.btnExpedientePac.Text = "Expediente \r\nPaciente\r\n\r\n\r\n";
-            this.btnExpedientePac.UseVisualStyleBackColor = true;
-            this.btnExpedientePac.Click += new System.EventHandler(this.btnExpedientePac_Click);
+            this.picLogo.BackColor = System.Drawing.Color.Transparent;
+            this.picLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
+            this.picLogo.Location = new System.Drawing.Point(266, 55);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(520, 459);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.picLogo.TabIndex = 2;
+            this.picLogo.TabStop = false;
             // 
             // Form1
             // 
@@ -290,6 +303,7 @@
             this.ClientSize = new System.Drawing.Size(874, 606);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.picLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -301,7 +315,8 @@
             this.pnlPaciente.ResumeLayout(false);
             this.pnlMedico.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoPeq)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -310,7 +325,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picLogoPeq;
         private System.Windows.Forms.Button btnConsulta;
         private System.Windows.Forms.Button btnPaciente;
         private System.Windows.Forms.Button btnMedico;
@@ -323,6 +338,7 @@
         private System.Windows.Forms.Button btnHistorCon;
         private System.Windows.Forms.Button btnProgramCon;
         private System.Windows.Forms.Button btnExpedientePac;
+        private System.Windows.Forms.PictureBox picLogo;
     }
 }
 
